@@ -8,6 +8,8 @@
 
 ## Architectural Diagram
 *TODO*: Provide an architectual diagram of the project and give an introduction of each step.
+![Architecture and document structure](https://user-images.githubusercontent.com/36628203/124041682-9e46d300-da07-11eb-8660-62edd8cc35e7.png)
+
 
 ## Key Steps
 *TODO*: Write a short discription of the key steps. Remeber to include all the screencasts required to demonstrate key steps. 
