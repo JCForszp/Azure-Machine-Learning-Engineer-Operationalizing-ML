@@ -11,7 +11,7 @@ The port number is optional, defaulting to 8000. Once the server is up and
 running with a swagger.json file in the same directory, then the url (assuming
 port 8000) to be used in swagger-ui would be:
 
-    http://localhost:8000/swagger.json
+    http://localhost:9000/swagger.json
 
 """
 
