@@ -16,6 +16,7 @@ The structure of this document follows the organization / architecture of the Az
 As we will go through each individual step of the two processes, it makes sense to keep the same organization to ensure that the transition between every step remaains clear and fluid. 
 
 The overall structure will be hence the following:
+  
 ![Architecture and document structure](https://user-images.githubusercontent.com/36628203/124170564-e1588300-daa7-11eb-8c44-56fddda19702.png)
 
 
@@ -24,11 +25,15 @@ The overall structure will be hence the following:
 ### Section 1 - Authentication & Dataset registration
 
 #### 1.1 Authentication
+
 Azure has severa kinds of authentication. We will use the simplest, the interactive one that is sufficient to cover local deployment and experimentation.
 As I am using the Udacity account, I skipped the creation of the Service Principal. 
-The first screen below shows the successful az login. 
+The first screen below shows the successful az login.   
+  
 ![image](https://user-images.githubusercontent.com/36628203/124171073-5f1c8e80-daa8-11eb-9796-a52415310699.png)
-The second command tells us that the Azure Machine Learning extension is properly installed. 
+
+The second command tells us that the Azure Machine Learning extension is properly installed.   
+
 ![image](https://user-images.githubusercontent.com/36628203/124171095-65ab0600-daa8-11eb-8a22-b8356860c5d0.png)
 
 #### 1.2 Dataset retrieval & registration
