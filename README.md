@@ -52,7 +52,10 @@ It now appears in the tab 'Registered dataset'.
 
 #### 2.1 Create experiment & compute cluster
 
-The next step consists in defining and launching the experiment. 
+The next step consists in defining and launching the experiment.  
+I am not going into the detail of each step of the sequence, as the screenshots below give a good summary of the options and outcomes.  
+The screen below shows that the experiment I defined was successfully completed.  
+We can also see the compute target I defined to specifically run this experiment.  
 ![image](https://user-images.githubusercontent.com/36628203/124171202-896e4c00-daa8-11eb-8a16-11a0478c0640.png)
 ![image](https://user-images.githubusercontent.com/36628203/124171221-90955a00-daa8-11eb-887a-99c36b6c7844.png)
 ![image](https://user-images.githubusercontent.com/36628203/124171243-97bc6800-daa8-11eb-8be2-b6d6cc38b989.png)
