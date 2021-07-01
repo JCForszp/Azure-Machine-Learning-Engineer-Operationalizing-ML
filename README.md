@@ -160,7 +160,8 @@ The following screenshot shows that the bank marketing dataset was already proce
 
 ### 2. Pipeline publishing
 
-Once the pipeline is completed, 
+Once the pipeline is completed, we can go to the pipeline endpoint. 
+The published "pipeline overview" shows the REST endpoint as well as a status 'ACTIVE' on the right side of the screen.  
 
 ![image](https://user-images.githubusercontent.com/36628203/124172396-1239b780-daaa-11eb-82db-b29b27e7d870.png)
 ![image](https://user-images.githubusercontent.com/36628203/124172445-241b5a80-daaa-11eb-9af5-87a9d6ae5996.png)
