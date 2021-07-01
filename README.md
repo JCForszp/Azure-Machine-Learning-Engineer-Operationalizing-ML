@@ -159,6 +159,9 @@ The following screenshot shows that the bank marketing dataset was already proce
 ![image](https://user-images.githubusercontent.com/36628203/124172385-0c43d680-daaa-11eb-9fb3-a167fa5b462f.png)
 
 ### 2. Pipeline publishing
+
+Once the pipeline is completed, 
+
 ![image](https://user-images.githubusercontent.com/36628203/124172396-1239b780-daaa-11eb-82db-b29b27e7d870.png)
 ![image](https://user-images.githubusercontent.com/36628203/124172445-241b5a80-daaa-11eb-9af5-87a9d6ae5996.png)
 ![image](https://user-images.githubusercontent.com/36628203/124172458-2aa9d200-daaa-11eb-95d0-2dc47e2b9f75.png)
