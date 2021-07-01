@@ -56,25 +56,22 @@ The overall structure will be hence the following:
 
 #### 3.2 Consuming deployed services
 ![image](https://user-images.githubusercontent.com/36628203/124172016-99d2f680-daa9-11eb-8829-f48f25205253.png)
-![image](https://user-images.githubusercontent.com/36628203/124171953-832c9f80-daa9-11eb-8819-4b882d6383d7.png)
 
 #### 3.3 benchmarking
 ![image](https://user-images.githubusercontent.com/36628203/124172211-d4d52a00-daa9-11eb-9b08-5fbded426126.png)
 
 ## Part 2 - Automating the creation, training and publishing with a pipeline driven from the Azure Python SDK
 ### 1. Pipeline creation
+![image](https://user-images.githubusercontent.com/36628203/124172369-06e68c00-daaa-11eb-94e7-5579b4d4caec.png)
+![image](https://user-images.githubusercontent.com/36628203/124172385-0c43d680-daaa-11eb-9fb3-a167fa5b462f.png)
+
 ### 2. Pipeline publishing
+![image](https://user-images.githubusercontent.com/36628203/124172396-1239b780-daaa-11eb-82db-b29b27e7d870.png)
+![image](https://user-images.githubusercontent.com/36628203/124172445-241b5a80-daaa-11eb-9af5-87a9d6ae5996.png)
+![image](https://user-images.githubusercontent.com/36628203/124172458-2aa9d200-daaa-11eb-95d0-2dc47e2b9f75.png)
 
-
-
-
-
-*TODO*: Write a short discription of the key steps. Remeber to include all the screencasts required to demonstrate key steps. 
-
-*TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
 
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
 [Screen recording](https://youtu.be/M10-TOFYvAM)
 
 ## Standout Suggestions
