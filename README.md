@@ -37,6 +37,12 @@ The second command tells us that the Azure Machine Learning extension is properl
 ![image](https://user-images.githubusercontent.com/36628203/124171095-65ab0600-daa8-11eb-8a22-b8356860c5d0.png)
 
 #### 1.2 Dataset retrieval & registration
+
+Now that the authentication part is done, the next step is to get into the Azure Machine Learning studio and import the dataset we need by using the command [Create dataset / Upload] that allows to directly retrieve it from an http: address.
+
+The screenshot below below shows that the dataset was correctly imported.
+It now appears in the tab 'Registered dataset'.
+
 ![image](https://user-images.githubusercontent.com/36628203/124171165-7fe4e400-daa8-11eb-998e-5e9578fae227.png)
 
 
