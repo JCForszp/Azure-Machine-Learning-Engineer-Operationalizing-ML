@@ -184,3 +184,4 @@ The screencast below shows in a more interactive manner, the following items:
 
  [Screen recording](https://youtu.be/M10-TOFYvAM)
 
+[Screen recording, first version (contains Udacity lab cuts, but better audio](https://youtu.be/vi1vSd9lHDs)
