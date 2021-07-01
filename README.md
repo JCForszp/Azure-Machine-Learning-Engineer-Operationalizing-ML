@@ -59,8 +59,9 @@ We can also see the compute target I defined to specifically run this experiment
 ![image](https://user-images.githubusercontent.com/36628203/124171202-896e4c00-daa8-11eb-8a16-11a0478c0640.png)
 
 We can access the detail of the completed run by clicking on its name (in our case "JCF-Bank_Mktg_Experiment-01").  
-The right pane is the most interesting, as it shows that automl determined that the best model, after tuning its hyper-parameters, reached an accuracy of 92%.  
-this is reasonable, keeping in mind that the dataset is highly imbalanced and shows a null-accuracy close to 89%.
+The right pane is the most interesting, as it shows that automl determined that the best model, after tuning its hyper-parameters, reached an accuracy of 92%.    
+  
+This is reasonable, keeping in mind that the dataset is highly imbalanced and shows a null-accuracy close to 89%.
 Anyway,automl shows that the best model we can get within the constraints given, is a "Voting Ensemble" model, as shown below:  
 ![image](https://user-images.githubusercontent.com/36628203/124171221-90955a00-daa8-11eb-887a-99c36b6c7844.png)
 
