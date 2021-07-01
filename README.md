@@ -46,9 +46,13 @@ It now appears in the tab 'Registered dataset'.
 ![image](https://user-images.githubusercontent.com/36628203/124171165-7fe4e400-daa8-11eb-998e-5e9578fae227.png)
 
 
+
+
 ### Section 2 - AutoML - Best Model Identification & deployt
 
 #### 2.1 Create experiment & compute cluster
+
+The next step consists in defining and launching the experiment. 
 ![image](https://user-images.githubusercontent.com/36628203/124171202-896e4c00-daa8-11eb-8a16-11a0478c0640.png)
 ![image](https://user-images.githubusercontent.com/36628203/124171221-90955a00-daa8-11eb-887a-99c36b6c7844.png)
 ![image](https://user-images.githubusercontent.com/36628203/124171243-97bc6800-daa8-11eb-8be2-b6d6cc38b989.png)
