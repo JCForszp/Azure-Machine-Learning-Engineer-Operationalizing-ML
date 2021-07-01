@@ -63,12 +63,27 @@ The right pane is the most interesting, as it shows that automl determined that 
   
 This is reasonable, keeping in mind that the dataset is highly imbalanced and shows a null-accuracy close to 89%.
 Anyway,automl shows that the best model we can get within the constraints given, is a "Voting Ensemble" model, as shown below:  
+
 ![image](https://user-images.githubusercontent.com/36628203/124171221-90955a00-daa8-11eb-887a-99c36b6c7844.png)
+
+I copied below a summary of the key metrics (the various AUC curves), which are good, keeping in mind that our dataset is slightly flawed and would need some data cleansing to give more accurate figures.  
 
 ![image](https://user-images.githubusercontent.com/36628203/124171243-97bc6800-daa8-11eb-8be2-b6d6cc38b989.png)
 
 #### 2.2 Deployment of best model
+
+Now that we know which model ends up with the best accuracy, it's time to deploy it. that will allow to interact with the HTTP API service.
+The screen below shows the definition of the deployment run. Besides the name and the description, we provide two major settings:  
+a. we enable "authentication"  
+b. as both Azure Container Instance (ACI) and Azure Kubernetes Service (AKS), we specify below that we are using ACI for the deployment of our compute instance.  
+
 ![image](https://user-images.githubusercontent.com/36628203/124171742-406ac780-daa9-11eb-8de2-2ec52f5eac91.png)
+
+Once the run is completed, we can access a detail of the newly created Endpoint.  
+It confirms that the deployment was successful ('Deployment state' shown as healthy) and provide already with two important objects for later steps:  
+- the URI of the scope file
+- the Swagger JSON file we will need for documenting the JSON payload we need to interact with the endpoint. 
+
 ![image](https://user-images.githubusercontent.com/36628203/124171761-4496e500-daa9-11eb-870d-32ec805be18d.png)
 
 #### 2.3 Enabling logging
