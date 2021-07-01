@@ -164,12 +164,23 @@ Once the pipeline is completed, we can go to the pipeline endpoint.
 The published "pipeline overview" shows the REST endpoint as well as a status 'ACTIVE' on the right side of the screen.  
 
 ![image](https://user-images.githubusercontent.com/36628203/124172396-1239b780-daaa-11eb-82db-b29b27e7d870.png)
+
+We can now go back to the Jupyter Notebook and check the "RunDetails" widget that gives additional info on the run ('completed'), the duration (35mn), as well as a graphical representation of the content of the pipeline.  
+
 ![image](https://user-images.githubusercontent.com/36628203/124172445-241b5a80-daaa-11eb-9af5-87a9d6ae5996.png)
+
+This last screen show the scheduled runs in Azure ML studio. The pipeline run is the second completed run (run 66)
+
 ![image](https://user-images.githubusercontent.com/36628203/124172458-2aa9d200-daaa-11eb-95d0-2dc47e2b9f75.png)
 
 
 ## Screen Recording
+
+The screencast below shows in a more interactive manner, the following items:
+- Working deployed ML model endpoint 
+- Deployed Pipeline 
+- Available AutoML Model
+- Successful API requests to the endpoint with the JSON payload I changed manually, as explained above.  
+
 [Screen recording](https://youtu.be/M10-TOFYvAM)
 
-## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
