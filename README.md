@@ -133,7 +133,14 @@ We only receive the response of the endpoint, which is, in our case below "No".
 ![image](https://user-images.githubusercontent.com/36628203/124172016-99d2f680-daa9-11eb-8829-f48f25205253.png)
 
 #### 3.3 benchmarking
+
+Benchmarking tells us how healthy is out connection to the endpoint, with average time for requests and number of failed requests.  
+The screenshot below shows that Apache Benchmark (AB) is running against the HTTP API using the authentication keys we provided.  
+
 ![image](https://user-images.githubusercontent.com/36628203/124172211-d4d52a00-daa9-11eb-9b08-5fbded426126.png)
+
+
+
 
 ## Part 2 - Automating the creation, training and publishing with a pipeline driven from the Azure Python SDK
 ### 1. Pipeline creation
