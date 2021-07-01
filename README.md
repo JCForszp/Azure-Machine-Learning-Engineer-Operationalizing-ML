@@ -182,5 +182,5 @@ The screencast below shows in a more interactive manner, the following items:
 - Available AutoML Model
 - Successful API requests to the endpoint with the JSON payload I changed manually, as explained above.  
 
-[Screen recording](https://youtu.be/M10-TOFYvAM)
+>>>>  [Screen recording](https://youtu.be/M10-TOFYvAM)
 
