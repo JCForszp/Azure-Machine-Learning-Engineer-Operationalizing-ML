@@ -83,10 +83,19 @@ Once the run is completed, we can access a detail of the newly created Endpoint.
 It confirms that the deployment was successful ('Deployment state' shown as healthy) and provide already with two important objects for later steps:  
 - the URI of the scope file
 - the Swagger JSON file we will need for documenting the JSON payload we need to interact with the endpoint. 
+Please note, at the bottom of the screen, that logging ('Application Insights') is disabled at this stage.  
 
 ![image](https://user-images.githubusercontent.com/36628203/124171761-4496e500-daa9-11eb-870d-32ec805be18d.png)
 
 #### 2.3 Enabling logging
+
+The next step will now to enable Application Insights that will allow us to detect anomalies and visualize performance at a later stage.  
+As the endpoint is already created, we need to change this setting using the Python SDK.  
+Amongst other things, the script [logs.py]() contains the python command we need for this activation:  
+```
+# enable application insight
+service.update(enable_app_insights=True)
+```
 ![image](https://user-images.githubusercontent.com/36628203/124171808-4fea1080-daa9-11eb-80c6-0f8339c31f2b.png)
 ![image](https://user-images.githubusercontent.com/36628203/124171832-55475b00-daa9-11eb-8b31-142286d06cf5.png)
 ![image](https://user-images.githubusercontent.com/36628203/124171846-5bd5d280-daa9-11eb-8b99-d582592d848c.png)
