@@ -96,8 +96,16 @@ Amongst other things, the script [logs.py]() contains the python command we need
 # enable application insight
 service.update(enable_app_insights=True)
 ```
+the execution of this script gives a very verbose output...  
+
 ![image](https://user-images.githubusercontent.com/36628203/124171808-4fea1080-daa9-11eb-80c6-0f8339c31f2b.png)
+
+... nevertheless, if we get back to the detail of the endpoint, we can see now that Application Insights is enabled.
+
 ![image](https://user-images.githubusercontent.com/36628203/124171832-55475b00-daa9-11eb-8b31-142286d06cf5.png)
+
+the detail screen provides also an Application Insights URI that gives access to a cockpit that shows key metrics such as response time, number of requests or number of failed requests.   
+
 ![image](https://user-images.githubusercontent.com/36628203/124171846-5bd5d280-daa9-11eb-8b99-d582592d848c.png)
 
 
