@@ -91,7 +91,7 @@ Please note, at the bottom of the screen, that logging ('Application Insights') 
 
 The next step will now to enable Application Insights that will allow us to detect anomalies and visualize performance at a later stage.  
 As the endpoint is already created, we need to change this setting using the Python SDK.  
-Amongst other things, the script [logs.py]() contains the python command we need for this activation:  
+Amongst other things, the script [logs.py](https://github.com/JCForszp/nd00333_AZMLND_C2/blob/master/starter_files/logs.py) contains the python command we need for this activation:  
 ```
 # enable application insight
 service.update(enable_app_insights=True)
@@ -109,13 +109,27 @@ the detail screen provides also an Application Insights URI that gives access to
 ![image](https://user-images.githubusercontent.com/36628203/124171846-5bd5d280-daa9-11eb-8b99-d582592d848c.png)
 
 
+
+
 ### Section 3 - Accessing and consuming endpoints
 
 #### 3.1 Documenting Endpoints with Swagger
+
+As we saw, the endpoint detail screen provides a swagger.json file that we can now use in Swagger to document automatically our endpoint.  
+Swagger provides a template input payload. It not only shows the list of items that needs to be provided, but also the type of data (green for strings, red for numeric).  
+So, it shows clearly the content of the API for the model:  
+
 ![image](https://user-images.githubusercontent.com/36628203/124171869-65f7d100-daa9-11eb-871e-3e438eb604cd.png)
+
+I copy / pasted the JSON template from Swagger into the python script [endpoint.py](https://github.com/JCForszp/nd00333_AZMLND_C2/blob/master/starter_files/endpoint.py) and changed values manually to test, as shown below:  
+
 ![image](https://user-images.githubusercontent.com/36628203/124171884-698b5800-daa9-11eb-91fc-bb507505c91e.png)
 
 #### 3.2 Consuming deployed services
+
+Now that our endpoint is deployed and our python script contains an input payload to POST, we can execute it in the shell.
+We only receive the response of the endpoint, which is, in our case below "No".  
+
 ![image](https://user-images.githubusercontent.com/36628203/124172016-99d2f680-daa9-11eb-8829-f48f25205253.png)
 
 #### 3.3 benchmarking
