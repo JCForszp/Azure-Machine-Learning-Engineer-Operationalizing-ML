@@ -20,17 +20,46 @@ The overall structure will be hence the following:
 
 
 ## Part 1 - Identification & Deployment of the best predictive model with Azure ML Studio
+
 ### Section 1 - Authentication & Dataset registration
+
 #### 1.1 Authentication
+![image](https://user-images.githubusercontent.com/36628203/124171073-5f1c8e80-daa8-11eb-9796-a52415310699.png)
+![image](https://user-images.githubusercontent.com/36628203/124171095-65ab0600-daa8-11eb-8a22-b8356860c5d0.png)
+
 #### 1.2 Dataset retrieval & registration
+![image](https://user-images.githubusercontent.com/36628203/124171165-7fe4e400-daa8-11eb-998e-5e9578fae227.png)
+
+
 ### Section 2 - AutoML - Best Model Identification & deployt
+
 #### 2.1 Create experiment & compute cluster
+![image](https://user-images.githubusercontent.com/36628203/124171202-896e4c00-daa8-11eb-8a16-11a0478c0640.png)
+![image](https://user-images.githubusercontent.com/36628203/124171221-90955a00-daa8-11eb-887a-99c36b6c7844.png)
+![image](https://user-images.githubusercontent.com/36628203/124171243-97bc6800-daa8-11eb-8be2-b6d6cc38b989.png)
+
 #### 2.2 Deployment of best model
+![image](https://user-images.githubusercontent.com/36628203/124171742-406ac780-daa9-11eb-8de2-2ec52f5eac91.png)
+![image](https://user-images.githubusercontent.com/36628203/124171761-4496e500-daa9-11eb-870d-32ec805be18d.png)
+
 #### 2.3 Enabling logging
+![image](https://user-images.githubusercontent.com/36628203/124171808-4fea1080-daa9-11eb-80c6-0f8339c31f2b.png)
+![image](https://user-images.githubusercontent.com/36628203/124171832-55475b00-daa9-11eb-8b31-142286d06cf5.png)
+![image](https://user-images.githubusercontent.com/36628203/124171846-5bd5d280-daa9-11eb-8b99-d582592d848c.png)
+
+
 ### Section 3 - Accessing and consuming endpoints
+
 #### 3.1 Documenting Endpoints with Swagger
+![image](https://user-images.githubusercontent.com/36628203/124171869-65f7d100-daa9-11eb-871e-3e438eb604cd.png)
+![image](https://user-images.githubusercontent.com/36628203/124171884-698b5800-daa9-11eb-91fc-bb507505c91e.png)
+
 #### 3.2 Consuming deployed services
+![image](https://user-images.githubusercontent.com/36628203/124172016-99d2f680-daa9-11eb-8829-f48f25205253.png)
+![image](https://user-images.githubusercontent.com/36628203/124171953-832c9f80-daa9-11eb-8819-4b882d6383d7.png)
+
 #### 3.3 benchmarking
+![image](https://user-images.githubusercontent.com/36628203/124172211-d4d52a00-daa9-11eb-9b08-5fbded426126.png)
 
 ## Part 2 - Automating the creation, training and publishing with a pipeline driven from the Azure Python SDK
 ### 1. Pipeline creation
@@ -38,8 +67,6 @@ The overall structure will be hence the following:
 
 
 
-
-## Part 2
 
 
 *TODO*: Write a short discription of the key steps. Remeber to include all the screencasts required to demonstrate key steps. 
