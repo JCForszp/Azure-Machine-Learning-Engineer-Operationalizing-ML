@@ -143,8 +143,19 @@ The screenshot below shows that Apache Benchmark (AB) is running against the HTT
 
 
 ## Part 2 - Automating the creation, training and publishing with a pipeline driven from the Azure Python SDK
+
+
 ### 1. Pipeline creation
+
+The aim of this part is to define a pipeline that automates the handling of the dataset, the definition and execution of the automl step and the deployment. 
+This is done using the python SDK, and the Jupyter Notebook used for that is available [here](https://github.com/JCForszp/nd00333_AZMLND_C2/blob/master/starter_files/aml-pipelines-with-automated-machine-learning-step.ipynb).  
+
+After launching the Notebook, we can see that the pipeline was correctly created:  
+
 ![image](https://user-images.githubusercontent.com/36628203/124172369-06e68c00-daaa-11eb-94e7-5579b4d4caec.png)
+
+The following screenshot shows that the bank marketing dataset was already process and the automl step is now running (green bar on the left side of the box): 
+
 ![image](https://user-images.githubusercontent.com/36628203/124172385-0c43d680-daaa-11eb-9fb3-a167fa5b462f.png)
 
 ### 2. Pipeline publishing
