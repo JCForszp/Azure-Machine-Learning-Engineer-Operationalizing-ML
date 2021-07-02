@@ -4,8 +4,10 @@
 ## Summary
 
 This project is meant to demo two different processings available on Azure Machine Learning Studio, both relating to the same dataset (a bank marketing data that can be retrieved [here](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv).  
-- The first processing, that will be demoed in the first section of this document, consists in identifying the best prediction model, deploying it in Azure and consuming it from a local python script.   
-- The second processing consists in the setup of a complete pipeline totally driven by the Azure Python SDK. The corresponding Jupyter notebook (with the details of the execution steps) can be found in the starter files folder, shortcut [here](https://github.com/JCForszp/nd00333_AZMLND_C2/blob/master/starter_files/aml-pipelines-with-automated-machine-learning-step.ipynb) ).  
+
+- The first processing, that will be demoed in the first section of this document, consists in identifying the best prediction model, deploying it in Azure and consuming it from a local python script. For this last step, we perform an API call from a local python script to interact with the model endpoint.   
+
+- The second processing consists in the setup of a complete pipeline totally driven by the Azure Python SDK. Azure provides three kind of pipelines: ML pipelines to automate all ML experiment steps, from the handling of the dataset to the publishing of the endpoint, the data factory pipeline that automates data prep, and the "Azure pipeline" that automates code & app orchestration (CD/CI). For this part of the project, we will define and run an ML pipeline using Azure Python SDK. The Jupyter notebook we used (with the details of the execution steps) can be found in the starter files folder, shortcut [here](https://github.com/JCForszp/nd00333_AZMLND_C2/blob/master/starter_files/aml-pipelines-with-automated-machine-learning-step.ipynb) ).  
 
 The [starter_files](https://github.com/JCForszp/nd00333_AZMLND_C2/tree/master/starter_files) folder, in this repository, contains the list of all final versions of the files (data, scripts, shell files) needed to replicate all steps mentioned below. 
 
@@ -185,3 +187,11 @@ The screencast below shows in a more interactive manner, the following items:
  [Screen recording](https://youtu.be/M10-TOFYvAM)
 
 [Screen recording, first version (contains Udacity lab cuts, but better audio](https://youtu.be/vi1vSd9lHDs)
+
+
+## Possible ways to improve this project  
+
+> - The first area of improvement concerns the dataset. the large imbalance makes that the null accuracy is much too high. The training dataset should be curated or redefined based on a class-based random sampling to bring this null accuracy to a much lower level. 
+> - The determination of the best model, and, hence, the maximum accuracy, could be improved by increasing the training time. Such increase will induce additional costs, and we are hitting here the question of the trade-off between the available budget and the maximization of the difference between the model accuracy and the null accuracy. 
+> - Another possibility that may increase the accuracy but also increase costs would be to use an Azure ML compute cluster or instance with GPU resources to extend the list of models tested to the various kinds of neural networks. 
+> - last improvement would be to extend the pipeline or define a new pipeline for data prep. We are using a static dataset, but data are expected to evolve over time and accuracy will drop at some stage. A pipeline seems the most natural way to automate the full process, from the fetching of the new data to the publishing of the endpoint.  
